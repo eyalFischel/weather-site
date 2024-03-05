@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: backend.dockerfile
+    ports:
+      - "8000:8000"
+    restart: on-failure
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: frontend.dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: on-failure

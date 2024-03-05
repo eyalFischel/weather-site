@@ -1,0 +1,9 @@
+# Description: Configuration file for the backend
+
+[openweathermap]
+# openweathermap.org API key
+api_key = "99bbec8d2c132b87d8666bdc88f0ff53" # TODO remove key from here
+
+#cities
+[other]
+cities = ["jerusalem", "herzliya", "gedera", "rehovot", "lod"]

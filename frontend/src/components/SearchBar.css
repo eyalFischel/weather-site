@@ -1,0 +1,33 @@
+.search {
+    position: fixed;
+    align-items: center;
+    margin-bottom: 20px;
+    top: 220px;
+    right: 260px;
+  }
+  
+  .search input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 25px; /* Add border-radius for rounded corners */
+  }
+  
+  .search button {
+    padding: 5px 10px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.8s ease;
+  }
+  
+  .search button:hover {
+    background-color: #9bc3ee;
+    transition: background-color 0.8s ease;
+    color: white;
+  }
+  
